@@ -18,8 +18,9 @@ public class Main {
     int userNum = input.nextInt();
 
 
-    //loop for horizontal astericks
+    //loop for vertical astericks
     for(int i = 0; i < userNum; i++){
+      //loop for horizonal astericks
       for(int j = 0; j < userNum; j++){
         System.out.print(" * ");
       }
